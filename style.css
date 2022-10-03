@@ -108,8 +108,8 @@ header nav ul li a:hover {
 form {
   align-items: center;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   border: 2px solid #ff385c;
   padding: 10px;
 }
