@@ -63,6 +63,7 @@ main img {
 
 .item-double {
   flex: 2;
+  margin: 10px;
 }
 
 /* -------  Navigation ------- */
@@ -106,17 +107,11 @@ header nav ul li a:hover {
 /* -------  Search Form ------- */
 
 form {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  border: 2px solid #ff385c;
-  padding: 10px;
-}
-
-form div {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #ff385c;
+  padding: 10px;
 }
 
 form label {
@@ -140,7 +135,7 @@ form button {
 
 .form-input {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 20px;
   width: 180px;
 }
