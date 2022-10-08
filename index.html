@@ -36,36 +36,41 @@
         <h2>Find the perfect vacation rental</h2>
         <!-- Create a form here -->
         <form class="customer-request">
-          <div class="item form-input">
+          <div class="right-align-input item form-input">
             <label for="location">Location</label>
             <input
               id="location"
+              class = "customer-info-boxes"
               name="location"
               type="text"
               placeholder="Search destination"
+              style="width:60%;"
             />
           </div>
-          <div class="item form-input">
+          <div class="right-align-input customer-info-boxes item form-input">
             <label for="arrive">Arrive</label>
             <input
               id="start-date"
               name="start-date"
               type="date"
               placeholder="mm/dd/yy"
+              style="width:60%;"
             />
           </div>
-          <div class="item form-input">
+          <div class="right-align-input customer-info-boxes item form-input">
             <label for="depart">Depart</label>
             <input
               id="end-date"
               name="end-date"
               type="date"
               placeholder="mm/dd/yy"
+              style="width:60%;"
+
             />
           </div>
-          <div class="item form-input">
+          <div class="right-align-input item form-input">
             <label for="rental-type">Type</label>
-            <select name="rental-type" id="rental-type">
+            <select name="rental-type" id="rental-type" style="width:60%;">
               <optin value="apartment">Apartment</optin>
               <option value="barn">Barn</option>
               <option value="castle">Castle</option>
